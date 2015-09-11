@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		780238051BA1D4FF009E7745 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 780238041BA1D4FF009E7745 /* main.m */; };
+		780238081BA1D4FF009E7745 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 780238071BA1D4FF009E7745 /* AppDelegate.m */; };
+		7802380E1BA1D4FF009E7745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7802380C1BA1D4FF009E7745 /* Main.storyboard */; };
+		780238101BA1D4FF009E7745 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7802380F1BA1D4FF009E7745 /* Images.xcassets */; };
+		780238131BA1D4FF009E7745 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780238111BA1D4FF009E7745 /* LaunchScreen.xib */; };
+		7802381F1BA1D4FF009E7745 /* ARPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7802381E1BA1D4FF009E7745 /* ARPageViewControllerTests.m */; };
+		7802382A1BA1D55A009E7745 /* ARPageViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780238291BA1D55A009E7745 /* ARPageViewControllerViewController.m */; };
+		780238301BA1D5BF009E7745 /* ARMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7802382F1BA1D5BF009E7745 /* ARMainViewController.m */; };
+		780238341BA1D5E9009E7745 /* ARChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780238331BA1D5E9009E7745 /* ARChildViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		780238191BA1D4FF009E7745 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 780237F71BA1D4FF009E7745 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 780237FE1BA1D4FF009E7745;
+			remoteInfo = ARPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		780237FF1BA1D4FF009E7745 /* ARPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		780238031BA1D4FF009E7745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		780238041BA1D4FF009E7745 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		780238061BA1D4FF009E7745 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		780238071BA1D4FF009E7745 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7802380D1BA1D4FF009E7745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7802380F1BA1D4FF009E7745 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		780238121BA1D4FF009E7745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		780238181BA1D4FF009E7745 /* ARPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7802381D1BA1D4FF009E7745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7802381E1BA1D4FF009E7745 /* ARPageViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPageViewControllerTests.m; sourceTree = "<group>"; };
+		780238281BA1D55A009E7745 /* ARPageViewControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPageViewControllerViewController.h; sourceTree = "<group>"; };
+		780238291BA1D55A009E7745 /* ARPageViewControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPageViewControllerViewController.m; sourceTree = "<group>"; };
+		7802382E1BA1D5BF009E7745 /* ARMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMainViewController.h; sourceTree = "<group>"; };
+		7802382F1BA1D5BF009E7745 /* ARMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARMainViewController.m; sourceTree = "<group>"; };
+		780238321BA1D5E9009E7745 /* ARChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARChildViewController.h; sourceTree = "<group>"; };
+		780238331BA1D5E9009E7745 /* ARChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARChildViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		780237FC1BA1D4FF009E7745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780238151BA1D4FF009E7745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		780237F61BA1D4FF009E7745 = {
+			isa = PBXGroup;
+			children = (
+				780238011BA1D4FF009E7745 /* ARPageViewController */,
+				7802381B1BA1D4FF009E7745 /* ARPageViewControllerTests */,
+				780238001BA1D4FF009E7745 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		780238001BA1D4FF009E7745 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				780237FF1BA1D4FF009E7745 /* ARPageViewController.app */,
+				780238181BA1D4FF009E7745 /* ARPageViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		780238011BA1D4FF009E7745 /* ARPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7802382B1BA1D56B009E7745 /* Application */,
+				7802382C1BA1D578009E7745 /* Controllers */,
+				780238351BA1D5FA009E7745 /* Resources */,
+				780238021BA1D4FF009E7745 /* Supporting Files */,
+			);
+			path = ARPageViewController;
+			sourceTree = "<group>";
+		};
+		780238021BA1D4FF009E7745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				780238031BA1D4FF009E7745 /* Info.plist */,
+				780238041BA1D4FF009E7745 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7802381B1BA1D4FF009E7745 /* ARPageViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7802381E1BA1D4FF009E7745 /* ARPageViewControllerTests.m */,
+				7802381C1BA1D4FF009E7745 /* Supporting Files */,
+			);
+			path = ARPageViewControllerTests;
+			sourceTree = "<group>";
+		};
+		7802381C1BA1D4FF009E7745 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7802381D1BA1D4FF009E7745 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7802382B1BA1D56B009E7745 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				780238061BA1D4FF009E7745 /* AppDelegate.h */,
+				780238071BA1D4FF009E7745 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		7802382C1BA1D578009E7745 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				780238311BA1D5CA009E7745 /* ViewControllers */,
+				7802382D1BA1D587009E7745 /* ARPageViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7802382D1BA1D587009E7745 /* ARPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				780238281BA1D55A009E7745 /* ARPageViewControllerViewController.h */,
+				780238291BA1D55A009E7745 /* ARPageViewControllerViewController.m */,
+			);
+			name = ARPageViewController;
+			sourceTree = "<group>";
+		};
+		780238311BA1D5CA009E7745 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7802382E1BA1D5BF009E7745 /* ARMainViewController.h */,
+				7802382F1BA1D5BF009E7745 /* ARMainViewController.m */,
+				780238321BA1D5E9009E7745 /* ARChildViewController.h */,
+				780238331BA1D5E9009E7745 /* ARChildViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		780238351BA1D5FA009E7745 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7802380C1BA1D4FF009E7745 /* Main.storyboard */,
+				7802380F1BA1D4FF009E7745 /* Images.xcassets */,
+				780238111BA1D4FF009E7745 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		780237FE1BA1D4FF009E7745 /* ARPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780238221BA1D4FF009E7745 /* Build configuration list for PBXNativeTarget "ARPageViewController" */;
+			buildPhases = (
+				780237FB1BA1D4FF009E7745 /* Sources */,
+				780237FC1BA1D4FF009E7745 /* Frameworks */,
+				780237FD1BA1D4FF009E7745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARPageViewController;
+			productName = ARPageViewController;
+			productReference = 780237FF1BA1D4FF009E7745 /* ARPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		780238171BA1D4FF009E7745 /* ARPageViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780238251BA1D4FF009E7745 /* Build configuration list for PBXNativeTarget "ARPageViewControllerTests" */;
+			buildPhases = (
+				780238141BA1D4FF009E7745 /* Sources */,
+				780238151BA1D4FF009E7745 /* Frameworks */,
+				780238161BA1D4FF009E7745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7802381A1BA1D4FF009E7745 /* PBXTargetDependency */,
+			);
+			name = ARPageViewControllerTests;
+			productName = ARPageViewControllerTests;
+			productReference = 780238181BA1D4FF009E7745 /* ARPageViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		780237F71BA1D4FF009E7745 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Anshu Kumar";
+				TargetAttributes = {
+					780237FE1BA1D4FF009E7745 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					780238171BA1D4FF009E7745 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 780237FE1BA1D4FF009E7745;
+					};
+				};
+			};
+			buildConfigurationList = 780237FA1BA1D4FF009E7745 /* Build configuration list for PBXProject "ARPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 780237F61BA1D4FF009E7745;
+			productRefGroup = 780238001BA1D4FF009E7745 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				780237FE1BA1D4FF009E7745 /* ARPageViewController */,
+				780238171BA1D4FF009E7745 /* ARPageViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		780237FD1BA1D4FF009E7745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7802380E1BA1D4FF009E7745 /* Main.storyboard in Resources */,
+				780238131BA1D4FF009E7745 /* LaunchScreen.xib in Resources */,
+				780238101BA1D4FF009E7745 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780238161BA1D4FF009E7745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		780237FB1BA1D4FF009E7745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780238301BA1D5BF009E7745 /* ARMainViewController.m in Sources */,
+				7802382A1BA1D55A009E7745 /* ARPageViewControllerViewController.m in Sources */,
+				780238081BA1D4FF009E7745 /* AppDelegate.m in Sources */,
+				780238051BA1D4FF009E7745 /* main.m in Sources */,
+				780238341BA1D5E9009E7745 /* ARChildViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780238141BA1D4FF009E7745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7802381F1BA1D4FF009E7745 /* ARPageViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7802381A1BA1D4FF009E7745 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 780237FE1BA1D4FF009E7745 /* ARPageViewController */;
+			targetProxy = 780238191BA1D4FF009E7745 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7802380C1BA1D4FF009E7745 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7802380D1BA1D4FF009E7745 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		780238111BA1D4FF009E7745 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				780238121BA1D4FF009E7745 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		780238201BA1D4FF009E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		780238211BA1D4FF009E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		780238231BA1D4FF009E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARPageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		780238241BA1D4FF009E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARPageViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		780238261BA1D4FF009E7745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPageViewController.app/ARPageViewController";
+			};
+			name = Debug;
+		};
+		780238271BA1D4FF009E7745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARPageViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPageViewController.app/ARPageViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		780237FA1BA1D4FF009E7745 /* Build configuration list for PBXProject "ARPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780238201BA1D4FF009E7745 /* Debug */,
+				780238211BA1D4FF009E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780238221BA1D4FF009E7745 /* Build configuration list for PBXNativeTarget "ARPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780238231BA1D4FF009E7745 /* Debug */,
+				780238241BA1D4FF009E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780238251BA1D4FF009E7745 /* Build configuration list for PBXNativeTarget "ARPageViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				780238261BA1D4FF009E7745 /* Debug */,
+				780238271BA1D4FF009E7745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 780237F71BA1D4FF009E7745 /* Project object */;
+}
